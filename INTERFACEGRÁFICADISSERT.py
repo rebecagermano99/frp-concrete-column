@@ -8,7 +8,7 @@ from PyQt6.QtGui import QFont, QPixmap, QPainter, QBrush, QColor
 from PyQt6.QtCore import Qt
 
 
-IMAGE_PATH = r"C:\Users\rebec\Documents\PYTHON\Dissertação\icon.jpg"
+IMAGE_PATH = "./images/icon.jpg"
 
 class SectionCanvas(QWidget):
     def __init__(self):
